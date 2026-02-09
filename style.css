@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: rgb(40 175 175);
 }
@@ -25,7 +29,46 @@ main {
     max-width: 98%;
 }
 
-#home-buttun{
-    : 90%;
+#home-buttun {
+    margin-left: 90%;
     width: 50px;
+}
+
+main {
+    display: flex;
+
+}
+
+
+aside {
+    background-color: blue;
+    min-height: auto;
+    width: 35rem;
+
+}
+
+#box-news {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-top: 5rem;
+    gap: 4rem;
+}
+
+#box-news div {
+    display: flex;
+    background-color:antiquewhite ;
+    height: 20rem;
+    width: 27rem;
+    border: 5px solid rgb(48, 149, 207);
+    border-radius: 3rem;
+    
+}
+
+#box-news img{
+    height: 170px;
+    width: 220px;
+    margin-left: 1.5rem;
+    margin-top: 4.5rem;
+    border-radius: 10px;
 }
